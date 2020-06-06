@@ -2,7 +2,7 @@
 .left_box{
     width:200px;
     height:500px;
-    background-color: aquamarine;
+    background-color:#F2D7D5 ;
     padding:8px;
     float:left
    
@@ -14,7 +14,7 @@
     width:1200px
 }
 h1{
-    color:aquamarine;
+    color:blue;
     text-align:center;
     
 }
@@ -28,7 +28,7 @@ h1{
 select{
     padding:15px;
     width:180px;
-    background-color:indianred;
+    background-color:#515A5A ;
     margin:10px
 }   
     
@@ -59,7 +59,8 @@ span{
 
 }
 #country{
-    font-size:25px
+    font-size:20px;
+    width:300px
 }
 #input{
     background-color:orange;
@@ -93,7 +94,13 @@ span{
 }
 button{
     text-align:center;
-    background-color:blue;
+    background-color:#CACFD2 ;
     padding:10px;
     margin-left:40px
+}
+#float{
+    float:left
+}
+#country1, #country2, #country3, #country4, #country5{
+    font-size:25px;
 }

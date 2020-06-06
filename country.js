@@ -45,19 +45,33 @@ window.addEventListener('load',function(){
        xhr.open('GET',url.href)
        xhr.send()
        xhr.onload=function(){
-           var count=JSON.stringify(data.countries)
-           var data=JSON.parse(this.response)
-           console.log(data.Global.NewConfirmed)
+        var data=JSON.parse(this.response)
+        console.log(data)
+     
      var con=document.getElementById('con')
     con.innerHTML=data.Global.TotalConfirmed
+
     var newcases= document.getElementById('new')
     newcases.innerHTML=data.Global.NewConfirmed
+
     var death=document.getElementById('death')
     death.innerHTML=data.Global.TotalDeaths
+
     var america=document.getElementById('country1')
-    america.innerHTML=count[177]
+    america.innerHTML=data.Countries[177].TotalConfirmed
 
+    var australia=document.getElementById('country2')
+    australia.innerHTML=data.Countries[8].TotalConfirmed
 
- 
-       }  
+    var india=document.getElementById('country3')
+    india.innerHTML=data.Countries[76].TotalConfirmed
+
+    var china=document.getElementById('country4')
+    china.innerHTML=data.Countries[35].TotalConfirmed
+
+    var southafrica=document.getElementById('country5')
+    southafrica.innerHTML=data.Countries[154].TotalConfirmed
+
+       }
+       
 })
