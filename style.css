@@ -1,0 +1,99 @@
+
+.left_box{
+    width:200px;
+    height:500px;
+    background-color: aquamarine;
+    padding:8px;
+    float:left
+   
+}
+#inner_box{
+    padding:10px;
+    float:left;
+    height:1200px;
+    width:1200px
+}
+h1{
+    color:aquamarine;
+    text-align:center;
+    
+}
+.image{
+    width:900px;
+    height:500px;
+    padding:10px;
+    float:left
+    
+}
+select{
+    padding:15px;
+    width:180px;
+    background-color:indianred;
+    margin:10px
+}   
+    
+span{
+    color:red
+}
+#text{
+    font-size:30px
+}
+#graph_text{
+    
+    color:blue
+
+}
+
+#font{
+    font-size:40px
+}
+#float{
+    float:left;
+    padding:20px
+}
+#graph{
+    width:500px;
+    height:300px;
+    padding:20px;
+    margin-left:200px
+
+}
+#country{
+    font-size:25px
+}
+#input{
+    background-color:orange;
+    width:300px;
+    height:20px
+}
+#input1{
+    background-color:purple;
+    width:250px;
+    height:20px
+}
+#input2{
+    background-color:blue;
+    width:150px;
+    height:20px
+}
+#input3{
+    background-color:crimson;
+    width:80px;
+    height:20px
+}
+#input4{
+    background-color:aqua;
+    width:200px;
+    height:20px
+}
+
+#covid{
+    font-size:18px;
+    color:blue
+}
+button{
+    text-align:center;
+    background-color:blue;
+    padding:10px;
+    margin-left:40px
+}
