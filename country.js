@@ -71,6 +71,8 @@ window.addEventListener('load',function(){
 
     var southafrica=document.getElementById('country5')
     southafrica.innerHTML=data.Countries[154].TotalConfirmed
+    var time=document.getElementById('time')
+    time.innerHTML=new Date()
 
        }
        
